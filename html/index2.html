@@ -11,12 +11,14 @@
     <link rel="shortcut icon" href="../image/Logo-DH-Mo-TPHCM-OU.webp">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="../css/mobile_index1.css" media="screen and (max-width: 500px)">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
     <script src="../js/index.js"></script>
     <script src="../js/ctDaotao.js"></script>
 </head>
 <body>
+
     <header class="header">
         <div class="flex wrap">
             <div>
@@ -252,13 +254,13 @@
 
         </div>
 
-        <!--tin tức-->
+        <!--tin nổi bật-->
         <div class="color_line"></div>
         <div class="size">
             <div><h1>TIN NỔI BẬT</h1></div>
             <!--các tin tức-->
             <div class="flex between wrap">
-                <div class="informations box_shadow">
+                <div class="informations box_shadow" data-aos="fade-right" data-aos-duration="1500">
                     <div class="information">
                         <img src="../image/TB Tuyen Sinh Cao Hoc 2023 - Dot 2.jpg" alt="tuyen_sinh">
                         <div class="thumb">
@@ -274,7 +276,7 @@
                     </div>
                     <div><h4>Tuyển sinh Cao học Ngành Khoa học máy tính năm 2023 - Đợt 2</h4></div>
                 </div>
-                <div class="informations box_shadow">
+                <div class="informations box_shadow" data-aos="fade-right" data-aos-duration="1500">
                     <div class="information">
                         <img src="../image/tuyen_sinh_dh_chinh_quy.png" alt="tuyen_sinh">
                         <div class="thumb">
@@ -291,7 +293,7 @@
                     </div>
                     <div><h4> Tuyển sinh năm 2023 trường Đại học Mở TP.HCM</h4></div>
                 </div>
-                <div class="informations box_shadow">
+                <div class="informations box_shadow" data-aos="fade-left" data-aos-duration="1500">
                     <div class="information">
                         <img src="../image/kq_kiem_dinh.jpg" alt="tuyen_sinh">
                         <div class="thumb">
@@ -307,7 +309,7 @@
                     </div>
                     <div><h4>Kết quả kiểm định chương trình đào tạo khoa Công nghệ thông tin </h4></div>
                 </div>
-                <div class="informations box_shadow">
+                <div class="informations box_shadow" data-aos="fade-left" data-aos-duration="1500">
                     <div class="information">
                         <img src="../image/hoi_nghi_qt_cnnt_2.png" alt="tuyen_sinh">
                         <div class="thumb">
@@ -325,21 +327,21 @@
                 </div> 
             </div>
         </div>
-        <div  class="more"><a href="#" id="them">Xem thêm tin tức</a></div>
+        <div  class="more"><a href="#">Xem thêm tin tức</a></div>
         
         <!--doanh nghiệp-->
         <div class=" business">
             <div><h1>HỢP TÁC DOANH NGHIỆP</div>
-            <div class="flex center wrap">
-                <div><a href="#"><img src="../image/businesses/one.jpg" class="img_size"></a></div>
-                <div><a href="#"><img src="../image/businesses/two.png" class="img_size"></a></div>
-                <div><a href="#"><img src="../image/businesses/three.png" class="img_size"></a></div>
-                <div><a href="#"><img src="../image/businesses/four.jpg" class="img_size"></a></div>
-                <div><a href="#"><img src="../image/businesses/five.gif" class="img_size"></a></div>
-                <div><a href="#"><img src="../image/businesses/six.jpg" class="img_size"></a></div>
-                <div><a href="#"><img src="../image/businesses/seven.png" class="img_size"></a></div>
-                <div><a href="#"><img src="../image/businesses/eight.png" class="img_size"></a></div>
-                <div><a href="#"><img src="../image/businesses/nine.png" class="img_size"></a></div>
+            <div class="flex center wrap" >
+                <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="300"><a href="#"><img src="../image/businesses/one.jpg" class="img_size"></a></div>
+                <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="500"><a href="#"><img src="../image/businesses/two.png" class="img_size"></a></div>
+                <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="700"><a href="#"><img src="../image/businesses/three.png" class="img_size"></a></div>
+                <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="900"><a href="#"><img src="../image/businesses/four.jpg" class="img_size"></a></div>
+                <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1100"><a href="#"><img src="../image/businesses/five.gif" class="img_size"></a></div>
+                <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1300"><a href="#"><img src="../image/businesses/six.jpg" class="img_size"></a></div>
+                <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1500"><a href="#"><img src="../image/businesses/seven.png" class="img_size"></a></div>
+                <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1700"><a href="#"><img src="../image/businesses/eight.png" class="img_size"></a></div>
+                <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1900"><a href="#"><img src="../image/businesses/nine.png" class="img_size"></a></div>
             </div>
         </div>
         
@@ -424,4 +426,7 @@
         </div>
     </footer>
 </body>
+<script>
+    AOS.init();
+</script>
 </html>
